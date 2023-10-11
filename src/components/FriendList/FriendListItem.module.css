@@ -1,0 +1,28 @@
+.item{
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.status{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid red;
+    background-color: red;
+}
+
+.status.online{
+
+            border: 1px solid green;
+    background-color: green;
+}
+.avatar{
+    border-radius: 3px;
+    border: 1px solid black;
+}

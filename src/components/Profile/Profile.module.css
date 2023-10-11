@@ -1,0 +1,73 @@
+.container{
+    max-width: 320px;
+    padding-bottom: 10px;
+    padding-top: 10px;           margin: 0 auto;
+}
+.profile{
+
+    display: flex;
+    flex-direction: column;
+
+
+        margin-top: 20px;    
+        
+            box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+                    0px 1px 1px rgba(46, 47, 66, 0.16),
+                    0px 2px 1px rgba(46, 47, 66, 0.08);
+        
+
+
+}
+.description{
+    display: flex;
+    gap: 15px;    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+border-radius: 5px 5px 0 0;
+}
+
+.avatar{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+border:2px solid brown;}
+
+
+.name,
+.tag,
+.location{
+    margin: 0;
+    
+text-align: center;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    color: grey;
+    letter-spacing: -0.28px;
+}
+
+.stats{
+    list-style: none;
+    display: flex;
+    background: hsl(132, 78%, 88%);
+
+}
+.stats li {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    /* Зміна display на flex */
+    justify-content: space-between;
+    align-items: center;
+    /* Вирівнювання по вертикалі по центру */
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+}
+
+.label{
+    display:flex;
+}
